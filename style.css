@@ -153,13 +153,12 @@
 
 
 .background {
-      background-image: url(images/Ging.jpg); /* Replace with your image */
+      background-image: url(images/header_robotic_automation.webp); /* Replace with your image */
       background-size: cover;
       background-position: center;
-      height: 100vh;
+      height: 45vh;
       position: relative;
 }
-
 
 p {
   font-size: 18px;
@@ -168,6 +167,22 @@ p {
 
 * {
   scroll-behavior: smooth;
+}
+
+h1{
+  color:#cdcdcd;
+  font-family: "BBH Sans Bartle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+h2{
+  color: #cdcdcd;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 15px;
 }
 
 
@@ -201,16 +216,46 @@ p {
 .title {
   text-align: center;
   height: 100px;
+  padding: 1%;
 
-  padding: 3%;
-  background-image: linear-gradient(0deg, rgb(232, 232, 232), rgb(19 61 99));
+  background-image: linear-gradient(0deg, #133d63, #d4dce4);
 }
 
 .subtitle {
   text-align: center;
+  padding: 1%;
+  background-color: #133d63;
 }
 
-/* Mobile view */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Desktop view */
 @media screen and (min-width: 780px), print {
     
 
@@ -223,53 +268,20 @@ p {
   position: relative;
 }
 
-
-p {
-  font-size: 18px;
-  line-height: 28px;
+h1{
+  color:#cdcdcd;
+  font-family: "BBH Sans Bartle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
 }
 
-* {
-  scroll-behavior: smooth;
-}
-
-
-.abouttexts {
-  display: flex;
-  justify-content: space-around;
-  margin: 2em 0;
-  padding: 0 1em;
-}
-
-.abouttext {
-  flex: 1;
-  margin: 0 1em;
-  text-align: center;
-}
-
-
-.aboutimages {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 10px;
-}
-
-.aboutimages img {
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
-  text-align: center;
-}
-
-.title {
-  text-align: center;
-  height: 100px;
-
-  padding: 3%;
-  background-image: linear-gradient(0deg, rgb(232, 232, 232), rgb(19 61 99));
-}
-
-.subtitle {
-  text-align: center;
+h2{
+  color: #cdcdcd;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 30px;
 }
 }
+
