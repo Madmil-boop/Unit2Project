@@ -149,8 +149,27 @@
 {
   transform: none;
 }
-
-
+.background_softbots {
+      background-image: url(images/Handrobot_montage_credit_ETH-Zurich_Thomas-Buchner.webp); /* Replace with your image */
+      background-size: cover;
+      background-position: center;
+      height: 45vh;
+      position: relative;
+}
+.background_medBots {
+      background-image: url(images/microbotsa.jpg); /* Replace with your image */
+      background-size: cover;
+      background-position: center;
+      height: 45vh;
+      position: relative;
+}
+.background-DocRob {
+      background-image: url(images/Docrob.avif); /* Replace with your image */
+      background-size: cover;
+      background-position: center;
+      height: 45vh;
+      position: relative;
+}
 
 .background {
       background-image: url(images/header_robotic_automation.webp); /* Replace with your image */
@@ -160,17 +179,70 @@
       position: relative;
 }
 
+
+.title {
+  text-align: center;
+  height: 100px;
+  padding: 1%;
+
+  background-image: linear-gradient(0deg, #ffffff, #90b1c9);
+}
+
+.title-DocRob {
+  text-align: center;
+  height: 100px;
+  padding: 1%;
+  background-image: linear-gradient(0deg, #e3eef2, #5d7e87);
+}
+.title-mircoBots {
+  text-align: center;
+  height: 100px;
+  padding: 1%;
+  background-image: linear-gradient(0deg, #e3eef2, #ab2a39);
+}
+.title-softRobs {
+  text-align: center;
+  height: 100px;
+  padding: 1%;
+  background-image: linear-gradient(0deg, #e3eef2, #56696e);
+}
 p {
   font-size: 18px;
   line-height: 28px;
+  font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 * {
   scroll-behavior: smooth;
 }
 
-h1{
-  color:#cdcdcd;
+
+.title h1{
+  color:#ffffff;
+  font-family: "BBH Sans Bartle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.title-DocRob h1 {
+  color:#ffffff;
+  font-family: "BBH Sans Bartle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.title-mircoBots h1 {
+  color:#ffffff;
+  font-family: "BBH Sans Bartle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.title-softRobs h1 {
+  color:#ffffff;
   font-family: "BBH Sans Bartle", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -178,15 +250,51 @@ h1{
 }
 
 h2{
-  color: #cdcdcd;
+  color: #1f1d1d;
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 15px;
 }
 
+.grid h2{
+    color: #040218;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+}
+.grid-medbots h2{
+    color: #040218;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 50px;
+}
+#deep h2{
+  color: #11162c;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 30px;
+}
+#subtitle {
+  text-align: center;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+  margin: 20px;
+  color: black;
+}
 
-.abouttexts {
+h3{
+  color: #11162c;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+
+/*.abouttexts {
   display: flex;
   justify-content: space-around;
   margin: 2em 0;
@@ -211,25 +319,95 @@ h2{
   height: auto;
   border-radius: 6px;
   text-align: center;
+}*/
+
+
+
+
+
+
+
+
+}
+main {
+    padding: 2%;
+    background-color: #e3eef2;
+    font-family: 'Lato', sans-serif;
 }
 
-.title {
-  text-align: center;
-  height: 100px;
-  padding: 1%;
-
-  background-image: linear-gradient(0deg, #133d63, #d4dce4);
+main h2 {
+    color: #213B45;
 }
 
-.subtitle {
-  text-align: center;
-  padding: 1%;
-  background-color: #133d63;
+main p {
+    color: #0F252E;
+    font-size: 1.25em;
+}
+
+main a {
+    text-decoration: none;
+    color: #417589;
+    font-weight: bold;
+}
+
+main ul {
+    list-style-type: square;
+    font-size: 1.15em;
+}
+
+main ul li:last-child {
+    padding-bottom: 2%;
+}
+
+article, figure {
+    padding: 2%;
+
+}
+
+.grid {
+  display: grid;
+  grid-gap: 20px;
 }
 
 
+article, figure {
+    padding: 2%;
+}
+
+figure {
+    border: 2px solid #4a1a3a;
+    margin: 2% auto;
+    background-color: rgba(120, 53, 79, 0.4);
+    text-align: center;
+}
+
+figcaption {
+  font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  
+
+    padding: 2%;
+}
+
+ section {
+        grid-column: 1 / span 2;
+    }
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.grid-medbots {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
 
 
+#deep a {
+    color: #213b45;
+}
 
 
 
@@ -257,31 +435,53 @@ h2{
 
 /* Desktop view */
 @media screen and (min-width: 780px), print {
-    
+.background_softbots {
 
+      height: 100vh;
 
-.background {
-  background-image: url(images/header_robotic_automation.webp); /* Replace with your image */
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  position: relative;
+}
+  .background_medBots {
+
+      height: 100vh;
+
+}
+.background-DocRob {
+      height: 100vh;
+
 }
 
-h1{
-  color:#cdcdcd;
-  font-family: "BBH Sans Bartle", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.background {
+
+  height: 100vh;
+
+}
+
+.title-DocRob h1{
   font-size: 50px;
 }
 
-h2{
-  color: #cdcdcd;
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-size: 30px;
-}
+.title h1{
+  font-size: 50px;
 }
 
+
+h2{
+
+  font-size: 30px;
+}
+
+.grid {
+
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 2fr;
+}
+
+#both-columns {
+    grid-column: span 2;
+    background: #e3eef2;
+    color: white;
+    text-align: center;
+}
+
+}
